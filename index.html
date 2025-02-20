@@ -7,7 +7,7 @@
   <title>Home</title>
   <link rel="stylesheet" href="styles.css">
   <script src="javascript.js"></script>
-  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="main.css">
 </head>
 
 <body>
@@ -55,15 +55,4 @@
   <button class="toggle-btn" onclick="toggleSidebar()">☰</button>
   <h1>Welcome to Our Clothing Store</h1>
 </div>
-function toggleSidebar() {
-  let sidebar = document.querySelector(".sidebar");
-  let content = document.querySelector(".content");
 
-  if (sidebar.style.width === "250px" || sidebar.style.width === "") {
-      sidebar.style.width = "0";
-      content.style.marginLeft = "0";
-  } else {
-      sidebar.style.width = "250px";
-      content.style.marginLeft = "250px";
-  }
-}
