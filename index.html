@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link rel="stylesheet" href="../css/main.css"><!-- Linking the external CSS file -->
+  <script src="../js/javascript.js"></script><!--Linking the external JavaScript file-->
+
+  <h1>Home</h1>
+  <!-- Side Menu (for mobile) -->
+  <nav id="side-menu" class="side-menu">
+    <a href="index.html">Home</a>
+    <a href="women.html">Women</a>
+    <a href="men.html">Men</a>
+    <a href="children.html">Children</a>
+  </nav>
+  <link rel="stylesheet" href="main.css">
+</head>
+
+
+<body>
+  <!-- Sticky Navbar -->
+  <header class="sticky-nav">
+    <div class="logo">
+      <a href="index.html"></a>
+      <img
+        src="D:\University of Brighton 2024-2025\University of Brighton 2024-2025\Final year 4th year\Final year project website\Project 2024\-Click-Cart-Simplifying-E-commerce\-Click-Cart-Simplifying-E-commerce\images\clickcartsimplifyingecommercelogo.jpg"
+        alt="Click-Cart Logo" class="logo-img" width="50">
+    </div>
+    <!-- Sticky Navigation Bar -->
+    <header>
+      <nav class="nav">
+        <a href="index.html" class="logo"></a>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="women.html">Women</a></li>
+          <li><a href="men.html">Men</a></li>
+          <li><a href="children.html">Children</a></li>
+        </ul>
+      </nav>
+      <div class="search-bar">
+        <input type="text" placeholder="Search products..." />
+        <button type="submit">Search</button>
+      </div>
+      <span class="menu-icon" onclick="toggleMenu()">&#9776;</span>
+    </header>
+    <div class="search-bar">
+      <input type="text" placeholder="Search products..." aria-label="Search products" />
+      <button type="submit">
+        Search
+      </button>
+    </div>
+    <!-- Side Menu (for mobile) -->
+    <nav id="side-menu" class="side-menu">
+      <a href="index.html">Home</a>
+      <a href="women.html">Women</a>
+      <a href="men.html">Men</a>
+      <a href="children.html">Children</a>
+
+    </nav>
+    <!-- Hero Section -->
+    <section class="hero">
+      <h1>Come and explore our clothing store!!</h1>
+      <p>Explore the latest fashion trends at unbeatable prices!</p>
+
+      <a href="women.html" class="btn">Shop Women's Fashion</a>
+      <a href="men.html" class="btn">Shop Men's Fashion</a>
+      <a href="children.html" class="btn">Shop Children's Fashion</a>
+    </section>
+    <!-- Product Categories Section -->
+    <section class="categories">
+      <h2>Shop by Categories</h2>
+      <div class="category">
+        <a href="women.html">
+          <h3>Women's Fashion</h3>
+          <img
+            src="D:\University of Brighton 2024-2025\University of Brighton 2024-2025\Final year 4th year\Final year project website\Project 2024\-Click-Cart-Simplifying-E-commerce\-Click-Cart-Simplifying-E-commerce\images\Stevie Floral Bodycon Midi Dress.jpg"
+            alt="Women's Fashion">
+
+        </a>
+      </div>
+      <div class="category">
+        <h3>Men's Clothing</h3>
+        <a href="men.html">
+
+          <img
+            src="D:\University of Brighton 2024-2025\University of Brighton 2024-2025\Final year 4th year\Final year project website\Project 2024\-Click-Cart-Simplifying-E-commerce\-Click-Cart-Simplifying-E-commerce\images\men miami lilac 2 pice.jpg"
+            alt="Men's Fashion">
+
+        </a>
+      </div>
+      <div class="category">
+        <h3>Children</h3>
+        <a href="children.html">
+          <h3>Children's Clothing</h3>
+          <img
+            src="D:\University of Brighton 2024-2025\University of Brighton 2024-2025\Final year 4th year\Final year project website\Project 2024\-Click-Cart-Simplifying-E-commerce\-Click-Cart-Simplifying-E-commerce\images\Girls Embroidered Tulle Dress.jpg"
+            alt="Sale">
+
+        </a>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-content">
+        <p>&copy; 2025 Clothing Store | All rights reserved.</p>
+        <div class="social-links">
+          <a href="index.html">Home</a>
+          <a href="women.html">Women</a>
+          <a href="men.html">Men</a>
+          <a href="children.html">Children</a>
+        </div>
+      </div>
+    </footer>
+  </header>
+  <script>
+    function toggleMenu() {
+      var menu = document.getElementById("side-menu");
+      menu.classList.toggle("active");
+    }
+  </script>
+
+</body>
